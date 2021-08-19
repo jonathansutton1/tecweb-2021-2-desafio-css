@@ -40,12 +40,14 @@ body {
 max-width:5rem;
 max-height:5rem;
 }
-.subtitle{
-  
-}
+
 .container{
-  position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  
+
 }
 
 .form-card{
@@ -53,7 +55,6 @@ max-height:5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding:1rem;
-  align-content: center;
   text-align: center;
   height: 6rem;
   width: 12rem;
