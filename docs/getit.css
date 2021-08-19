@@ -25,6 +25,44 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  
+}
+
+.appbar{background-color:#f7d736;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+
+}
+.logo{
+max-width:5rem;
+max-height:5rem;
+}
+.subtitle{
+  
+}
+.container{
+  position: relative;
+  justify-content: center;
+}
+
+.form-card{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding:1rem;
+  align-content: center;
+  text-align: center;
+  height: 6rem;
+  width: 12rem;
+}
+.form-card-title{
+
+}
+.autoresize{
+
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
