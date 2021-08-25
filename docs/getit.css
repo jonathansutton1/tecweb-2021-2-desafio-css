@@ -55,16 +55,53 @@ max-height:5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding:1rem;
-  text-align: center;
-  height: 6rem;
-  width: 12rem;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
 }
 .form-card-title{
-
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  
 }
 .autoresize{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
 
 }
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding:1rem;
+  text-align: center;
+  height: 7rem;
+  width: 12rem;
+  border-radius: 10px;
+  color: var(1 = #fae890);
+  color: var(2 = #ead3a7);
+  color: var(3 = #9de0f5);
+  color: var(4 = #ef89ba);
+  color: var(5 = #abe9c1);
+
+}
+.card-title{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: large;
+}
+
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
