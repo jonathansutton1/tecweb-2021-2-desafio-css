@@ -119,6 +119,30 @@ max-height:5rem;
   font-size: large;
 }
 
+.card-color-1{
+  background-color: #fae890;
+}
+
+.card-color-2{
+  background-color: #ead3a7;
+}
+
+.card-color-3{
+  background-color: #9de0f5;
+}
+
+.card-color-4{
+  background-color: #ef89ba;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+
+
+
+
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
